@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+// Variables couleurs
+$color-primary:#FF6060;
+$color-secondary:#F7F7F7;
+
+
+// variables layout
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+ 
+}
+
+.container {
+  padding: 0px 100px;
+  max-width: 1440px;
+}
+
+.container--footer {
+  padding: 0px 0px;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+  color : black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+

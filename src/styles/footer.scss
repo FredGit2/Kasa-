@@ -1,0 +1,21 @@
+footer {
+    width: 100%;
+
+    .footer__contend {
+        background-color: black;
+        color: white;
+        padding: 66px 0px 20px 0px;
+        text-align: center;
+        height: 209px;
+        width: 100%;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .footer__logo {
+        width: 122px;
+        height: 39px;
+    }
+}
