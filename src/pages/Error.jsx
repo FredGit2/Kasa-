@@ -1,11 +1,16 @@
-import React from 'react';
+import { Link } from "react-router-dom"
 
-const Error = () => {
+function Error() {
+
     return (
-        <div>
-            <p> ERREUR 404</p>
+        <div className="container">
+            <div className="error__content">
+            <h1>404</h1>
+                <p>Oups! La page demandée n'existe pas</p>
+              <Link to='/'>Retourner sur la page d'acceuil</Link> 
+            </div>
         </div>
-    );
-};
+    )
+}
 
-export default Error;
+export default Error

@@ -1,11 +1,22 @@
-import React from 'react';
+import AboutBanner from "../components/AboutBanner";
+import Collapse from "../components/Collapse";
+import AboutList from "../datas/about.json"
 
-const About = () => {
+function About() {
     return (
-        <div>
-            <h1> a propos</h1>
-        </div>
-    );
-};
-
-export default About;
+      <div>
+        <main>
+          <AboutBanner />
+          <div className="container">
+      <ul>
+          {AboutList.map(({ id, title, content }) => (
+            <Collapse key={id} title={title} content={content} />
+          ))}
+      </ul>
+      </div>
+        </main>
+      </div>
+    )
+  }
+  
+  export default About

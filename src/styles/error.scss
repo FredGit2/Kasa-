@@ -1,0 +1,25 @@
+.error__content{
+    color: $color-primary;
+    text-align: center;
+    font-weight: 500;
+
+    h1 {
+        font-weight: 700;
+        font-size: 288px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-size: 36px;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    a {
+        color: $color-primary;
+        text-decoration: underline;
+        margin-top: 100px;  
+    }
+
+}

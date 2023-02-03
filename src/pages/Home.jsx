@@ -1,11 +1,18 @@
 import React from 'react';
+import Banner from '../components/Banner';
+import Card from '../components/Card';
 
-const Home = () => {
+
+function Home() {
     return (
-        <div>
-            <p>HELLO</p>
-        </div>
+      <div>
+        <main>
+          <Banner />
+          <Card />
+        </main>
+      </div>
     );
-};
+  }
 
 export default Home;
+
