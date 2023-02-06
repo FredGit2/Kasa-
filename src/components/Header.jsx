@@ -9,7 +9,7 @@ function Header() {
     return (
         <header>
             <div className='container'>
-                <div className='header__content'>
+                <div className='header__container'>
                     <NavLink className='header__logo' to='/' ><img src={KasaLogo} alt='Kasa' /></NavLink>
                     <nav className='header__nav'>
                         <ul className='nav__ul'>

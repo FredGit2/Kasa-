@@ -5,6 +5,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Error from './pages/Error';
 import Footer from './components/Footer';
+import Housing from './pages/Housing';
 
 const Router = () => {
     return(
@@ -13,6 +14,7 @@ const Router = () => {
             <Routes>
                 <Route path='/' element={<Home />}></Route>
                 <Route path='/About' element={<About />}></Route>
+                <Route path='/Appartments/:id' element={<Housing />}></Route>
                 <Route path='*' element={<Error />}></Route>
             </Routes>  
             <Footer/>

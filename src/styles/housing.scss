@@ -1,0 +1,40 @@
+.housing__container {
+    display: flex;
+    justify-content: space-between;
+    
+    .housing__description{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        color: #FF6060;
+        
+    
+        .housing__title {
+            font-size: 36px;
+            font-weight: 500;
+        }
+    
+        .housing__location {
+            margin: 0 0 20px;
+            font-size: 18px;
+            font-weight: 500;
+           
+        }
+    }
+
+    .housing__host--rating {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      
+        
+        
+    }
+    
+}
+    .collapse__container {
+        display: flex;
+        justify-content: space-around;
+       
+
+    }

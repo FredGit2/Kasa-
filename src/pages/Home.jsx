@@ -5,7 +5,7 @@ import Card from '../components/Card';
 
 function Home() {
     return (
-      <div>
+      <div className='container'>
         <main>
           <Banner />
           <Card />

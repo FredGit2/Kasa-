@@ -1,8 +1,9 @@
 header {
-    .header__content {
+    .header__container {
         display: flex;
         align-items: center;
-        margin-bottom: 63px;
+        margin-bottom: 60px;
+        justify-content: space-between;
     }
 
     .header__logo {
@@ -15,12 +16,11 @@ header {
     }
 
     .header__nav {
-        display: flex;
-        justify-content: flex-end;
-        flex: 1;
 
         .nav__ul {
             display: flex;
+            align-items: flex-end;
+            text-align: right;
 
             .nav__a {
                 padding: 45px 20px;

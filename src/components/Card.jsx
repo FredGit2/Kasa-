@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Card() {
   return (
     <section>
-      <div className='container'>
+      <div className='card__container'>
         <ul className='card__apparts'>
           {listAppartments.map((appart) => (
             <NavLink to={`/Appartments/${appart.id}` } className='card__appart' key={appart.id}>
