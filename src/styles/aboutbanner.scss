@@ -1,9 +1,21 @@
 .aboutBanner__content {
+  
     height: 223px;
     width: 100%;
     border-radius: 25px;
     background-image: url(../assets/AboutBanner.png);
     background-size: cover;
-    filter:opacity(0.70);
 
+}
+
+// Tablette et mobile
+
+@media screen and (max-width:768px) {
+    .aboutBanner__content {
+        
+        background-size: cover;
+        background-position: bottom;
+       width: 100%;
+        background-image: url(../assets/AboutBannerMobile.png);
+    }
 }

@@ -38,7 +38,7 @@ function Housing () {
 
             </div>
             
-            <div className="collapse__container">
+            <div className="housing__collapse">
                 
                 <Collapse title="Description" content={display.description} />
                 <Collapse title="Equipements" content={display.equipments.map((equipments) => (

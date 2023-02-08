@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-
+    
     .footer__content {
         background-color: black;
         color: white;
@@ -20,4 +20,17 @@ footer {
         width: 122px;
         height: 39px;
     }
+}
+// Responsive Tablette et mobile
+@media screen and (max-width:768px) {
+    
+    footer {
+         .footer__content {
+             padding-top: 62px ;
+                  p{
+                  font-size: 12px;
+                  }
+         }
+    }
+
 }

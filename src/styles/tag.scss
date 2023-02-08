@@ -1,6 +1,6 @@
 .housing__tags {
     display: flex;
-    
+    height: 25px;
     gap: 10px;
 }
 
@@ -17,4 +17,21 @@
         font-weight: 500;
         color: #FFFFFF;
     }
+}
+
+// tablette et mobile //
+
+@media screen and (max-width:768px) {
+    .housing__tags {
+        height: 15px;
+    }
+
+    .tag {
+        border-radius: 5px;
+        
+        span {
+            font-size: 10px;
+        }
+    }
+    
 }

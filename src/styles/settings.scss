@@ -1,6 +1,9 @@
+// importation de la police via google fonts //
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
-// Variables couleurs
+// Variables couleurs //
+
 $color-primary:#FF6060;
 $color-secondary:#F7F7F7;
 
@@ -12,34 +15,53 @@ $color-secondary:#F7F7F7;
 }
 
 body {
+ 
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
- 
-}
-
-.container {
-  padding: 0px 100px;
+  margin: 0;
   
 }
 
-.footer__container {
-  padding: 0px 0px;
+  .container {
+    padding: 0px 100px;
+    
+  }
   
-}
+  .footer__container {
+    
+    padding: 150px 0px 0px 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    color : black;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-a {
-  text-decoration: none;
-  color : black;
-}
+  // responsive  //
+  
+  @media screen and (max-width: 1358px) {
+  
+    .container {
+     padding: 0px 20px;
+    }
+   }
 
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
+   @media screen and (max-width: 768px) { 
+      body {
+        .footer__container{
+            padding-top: 50px;
+         }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
+     }
+   }

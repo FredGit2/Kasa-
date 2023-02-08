@@ -18,3 +18,17 @@
         
     }
 }
+
+// Tablette et mobile //
+
+@media screen and (max-width:768px) {
+.host__container {
+        .host__name {
+            font-size: 12px;
+         }    
+         .host__avatar {
+             height: 32px;
+        }
+   }
+
+}

@@ -25,7 +25,7 @@
         border: none;
         cursor: pointer;
         
-        img{
+        img {
             width: 79px;
             height: 46px;
         }
@@ -54,3 +54,24 @@
 
 }
 
+ // Tablette et mobile //
+
+ @media screen and (max-width:768px) {
+    .container-slideshow {
+   
+        height: 255px;
+
+        button {
+
+            img {
+                width: 20px;
+                height: 12px;
+            }
+        }
+        // faut il mettre un counter sur la partie mobile ? //
+        .container-slideshow__counter {
+            display: none;
+        }
+    }
+ }    
+    

@@ -2,14 +2,12 @@ header {
     .header__container {
         display: flex;
         align-items: center;
-        margin-bottom: 60px;
+        margin:40px 0 60px 0;
         justify-content: space-between;
     }
 
     .header__logo {
-        display: block;
-
-        img {
+         img {
             width: 210px;
             height: 68px;
         }
@@ -23,13 +21,40 @@ header {
             text-align: right;
 
             .nav__a {
-                padding: 45px 20px;
+                padding-right: 57px;
                 color: $color-primary;
                 font-size: 24px;
-                display: block;
                 font-weight: 500;
             }
         }
     }
 }
 
+// Tablette et mobile //
+
+@media screen and (max-width:768px) {
+    header {
+        
+        .header__container {
+            margin: 20px 0 16px 0;
+        }
+        
+        .header__logo {
+            img {
+                width: 145px;
+                height: 47px;
+            }
+        }
+        
+        .header__nav {
+            .nav__ul {
+                .nav__a {
+                    padding-right: 10px;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    
+}

@@ -3,9 +3,21 @@
     display: flex;
     justify-content: flex-end;
 
-    img{
+    img {
     width: 35px;
     padding-right: 5px;
     }   
 }
 
+// Tablette et mobile //
+
+@media screen and (max-width:768px) {
+
+    .rate__container {
+
+        img {
+            width: 15px;
+        }
+    }
+
+}

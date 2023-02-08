@@ -1,5 +1,6 @@
-.error__content{
+.error__content {
     color: $color-primary;
+    display: block;
     text-align: center;
     font-weight: 500;
 
@@ -20,6 +21,25 @@
         color: $color-primary;
         text-decoration: underline;
         margin-top: 100px;  
+        padding-bottom: 10px;
     }
 
+}
+// Tablette et mobile //
+
+@media screen and (max-width:768px) {
+
+    .error__content {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin-top: 180px;
+         font-size: 96px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
 }
