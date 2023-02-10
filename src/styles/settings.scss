@@ -18,15 +18,12 @@ $color-secondary:#F7F7F7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  
-  
 }
 
 body, html {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  margin: 0;
-  
+  margin: 0; 
 }
 
   .container {
@@ -56,17 +53,9 @@ body, html {
   // responsive  //
   
   @media screen and (max-width: 1358px) {
-  
+    
     .container {
      padding: 0px 20px;
     }
    }
 
-   @media screen and (max-width: 768px) { 
-    body {
-      .footer__container{
-          padding-top: 50px;
-       }
-
-   }
- }

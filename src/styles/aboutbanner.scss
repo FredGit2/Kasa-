@@ -3,9 +3,9 @@
     height: 223px;
     width: 100%;
     border-radius: 25px;
-    background-image: url(../assets/AboutBanner.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/AboutBanner.png);
     background-size: cover;
-
+    background-position: center;
 }
 
 // Tablette et mobile
@@ -15,7 +15,6 @@
         
         background-size: cover;
         background-position: bottom;
-       width: 100%;
-        background-image: url(../assets/AboutBannerMobile.png);
+       width: 100%;  
     }
 }
